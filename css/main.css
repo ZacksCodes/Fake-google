@@ -1,0 +1,146 @@
+body{
+    font-family: arial, sans-serif;
+    color: #222;
+    font-size: small;
+    background: #fff;
+    height: 100%;
+    margin: 0;
+}
+/* Navbar */
+.header-div{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.header-table{
+    width: auto;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.td-header{
+    padding: 5px;
+}
+
+#functions{
+    background-image: url(../img/Other_Function.png);
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-size: 25px;
+}
+
+#functions:hover{
+    background-image: url(../img/Other_Function_hover.png);
+    display: block;
+    background-size: 25px;
+}
+
+#around{
+    background-image: url(../img/Google_Account.png);
+    display: block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+  
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Logo centered */
+
+.middle-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+/* search box */
+.search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.search-input:hover{
+    box-shadow: 2px 2px #dfe1e5;
+}
+.search-input{
+    width: 582px;
+    border-radius: 24px;
+    height: 44px;
+    margin-left: 10px;
+    border: 1px solid #dfe1e5;
+    background: url(../img/magnifying-glass.png) no-repeat scroll 1px 1px;
+    background-size: 15px;
+    background-position-x: 20px;
+    background-position-y: 15px;
+    padding-left: 50px;
+}
+/* Buttons */
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.search-buttons{
+
+}
+.search-td{
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #504f4f;
+}
+.search-td:hover{
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid #dbd9d9;
+    color: black;
+}
+/* footer */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    rgb(136, 136, 136)
+}
+.footer:hover{
+    text-decoration: underline;
+}
+.country{
+    border: 1px solid rgba(226, 221, 221, 0.54);
+    padding: 10px;
+}
+.div-footer1{
+    float: left;
+}
+.div-footer2{
+    float: right;
+}
+.footer-table {
+    padding: 10px;
+    color: rgba(0,0,0,.54);
+}
+.td-footer {
+    padding-right: 10px;
+}
